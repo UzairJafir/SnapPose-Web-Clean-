@@ -1,0 +1,251 @@
+import Svg, { Circle, Line, Path } from "react-native-svg";
+export function CreativePose({ size = 40, color = "#D946EF" }) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 60 60">
+      <Circle
+        cx="22"
+        cy="10"
+        r="6"
+        stroke={color}
+        strokeWidth={2.5}
+        fill="none"
+      />
+      <Line
+        x1="22"
+        y1="16"
+        x2="30"
+        y2="30"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="22"
+        y1="20"
+        x2="8"
+        y2="14"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="22"
+        y1="20"
+        x2="38"
+        y2="12"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="30"
+        y1="30"
+        x2="18"
+        y2="48"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="30"
+        y1="30"
+        x2="46"
+        y2="44"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+    </Svg>
+  );
+}
+
+export function StandingPose({ size = 40, color = "#D946EF" }) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 60 60">
+      <Circle
+        cx="30"
+        cy="10"
+        r="6"
+        stroke={color}
+        strokeWidth={2.5}
+        fill="none"
+      />
+      <Line
+        x1="30"
+        y1="16"
+        x2="30"
+        y2="38"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="30"
+        y1="22"
+        x2="16"
+        y2="30"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="30"
+        y1="22"
+        x2="44"
+        y2="30"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="30"
+        y1="38"
+        x2="20"
+        y2="54"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="30"
+        y1="38"
+        x2="40"
+        y2="54"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+    </Svg>
+  );
+}
+
+export function SeatedPose({ size = 40, color = "#D946EF" }) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 60 60">
+      <Circle
+        cx="24"
+        cy="10"
+        r="6"
+        stroke={color}
+        strokeWidth={2.5}
+        fill="none"
+      />
+      <Line
+        x1="24"
+        y1="16"
+        x2="24"
+        y2="32"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="24"
+        y1="20"
+        x2="12"
+        y2="26"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="24"
+        y1="20"
+        x2="36"
+        y2="26"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="24"
+        y1="32"
+        x2="40"
+        y2="34"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="40"
+        y1="34"
+        x2="40"
+        y2="52"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="24"
+        y1="32"
+        x2="24"
+        y2="50"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+    </Svg>
+  );
+}
+
+export function SideProfilePose({ size = 40, color = "#D946EF" }) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 60 60">
+      <Circle
+        cx="34"
+        cy="10"
+        r="6"
+        stroke={color}
+        strokeWidth={2.5}
+        fill="none"
+      />
+      <Path
+        d="M32,16 C30,24 26,28 28,36 C29,42 24,48 22,54"
+        stroke={color}
+        strokeWidth={2.5}
+        fill="none"
+        strokeLinecap="round"
+      />
+      <Line
+        x1="30"
+        y1="22"
+        x2="42"
+        y2="26"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+      <Line
+        x1="28"
+        y1="36"
+        x2="38"
+        y2="52"
+        stroke={color}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+    </Svg>
+  );
+}
+
+export function HeadshotPose({ size = 40, color = "#D946EF" }) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 60 60">
+      <Circle
+        cx="30"
+        cy="24"
+        r="14"
+        stroke={color}
+        strokeWidth={2.5}
+        fill="none"
+      />
+      <Path
+        d="M14,52 C14,40 20,34 30,34 C40,34 46,40 46,52"
+        stroke={color}
+        strokeWidth={2.5}
+        fill="none"
+        strokeLinecap="round"
+      />
+    </Svg>
+  );
+}
